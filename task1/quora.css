@@ -1,0 +1,68 @@
+*{
+    font-family: sans-serif;
+}
+h1, h3{
+    color: crimson;
+}
+#signin{
+    background-color: cyan;
+}
+#login{
+    background-color: mediumturquoise;
+}
+/* .post{
+    background-color: rgb(222, 209, 209);
+} */
+.vote{
+    background-color: chartreuse;
+}
+/* Desendant Selector */
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+nav a{
+    color: lightsalmon;
+}
+
+/* Adjcent siblings */
+
+p+h3{
+    text-decoration: underline;
+    
+}
+
+.vote+button{
+    background-color: mediumpurple;
+}
+/* child combinate */
+
+div > input{
+    background-color: bisque;
+}
+
+
+/* attribute selector */
+
+input[type="email"]
+{
+    color: rgb(96, 0, 205);
+}
+
+input[type="password"]
+{
+    color: mediumblue;
+}
+
+/* hover in sudo class */
+
+button:hover{
+    background-color: fuchsia;
+    color: aliceblue;
+}
+
+h3:hover{
+    text-decoration:overline;
+}
+
+

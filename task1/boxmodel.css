@@ -1,0 +1,21 @@
+.contentheading{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px #bad712;
+    box-shadow: 2px 2px 8px 5px #bad712;
+    
+}
+body{
+    background-image: url(A_Daisy_flower.jpg);
+    /* if image is repeating  */
+    /**/
+
+    /* background-repeat: repeat-x */
+    /* background-repeat: repeat-y */
+    /* bakground-size: cover; */
+     background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: center;
+}

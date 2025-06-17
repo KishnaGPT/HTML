@@ -1,0 +1,21 @@
+#container{
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    height: 500px;
+    width: 80%;
+    margin: 10px;
+    display:flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+#container div{
+    height: 50px;
+    width: 80%;
+    text-align: center;
+    color:bisque;
+    
+}
